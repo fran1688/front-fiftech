@@ -1,0 +1,6 @@
+Dockerfile
+.git
+.gitignore
+Makefile
+node_modules
+package-lock.json

@@ -1,38 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 .App {
-  text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+    width: 300px;
+    height: 300px;
+    margin: 0;
+}
+.cartoons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 5px;
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-cartoons {
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.spa-cartoons {
+    border-bottom: 1px solid white;
+    margin: 5px 0 5px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
 }
+
+.search-input, .search-btn {
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.search-input {
+    padding: 5px 8px;
+    width: calc(50% - 2em);
+    margin: 0 8px;
+}
+
+.user-input {
+    margin: 25px 0 15px 0;
+}
+
+.user-title {
+    margin-top: 25%;
+    color: white;
+}
+
+.search-btn {
+    padding: 5px 15px 5px 15px;
+    background-color: honeydew;
+}
+
+.single-cartoons {
+    flex-shrink: 1;
+    flex-basis: 24%;
+    border: 1px solid dimgrey;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+.img-cartoon {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.img-login {
+    width: 117%;
+    height: 172%;
+}
+
+.color-title {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.tam-img-user {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
