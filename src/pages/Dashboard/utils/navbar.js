@@ -23,7 +23,7 @@ const NavbarCartoons = (props) => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem>
-                            <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                            <NavLink href="https://github.com/fran1688/front-fiftech">GitHub</NavLink>
                         </NavItem>
                     </Nav>
                     <Link to="/logout" className="btn btn-outline-primary"> Log Out </Link>
